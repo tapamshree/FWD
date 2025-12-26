@@ -1,0 +1,183 @@
+export const startups = [
+  {
+    id: 1,
+    name: 'Aether Labs',
+    domain: 'AI / ML',
+    tagline: 'Neural insights for small businesses',
+    funding: 'Seed',
+    logo: 'AL'
+  },
+  {
+    id: 2,
+    name: 'GreenLoop',
+    domain: 'Sustainability',
+    tagline: 'Circular solutions for e-waste',
+    funding: 'Pre-Series A',
+    logo: 'GL'
+  },
+  {
+    id: 3,
+    name: 'StudyMesh',
+    domain: 'EdTech',
+    tagline: 'Peer-powered microlearning',
+    funding: 'Bootstrapped',
+    logo: 'SM'
+  },
+  {
+    id: 4,
+    name: 'FinNest',
+    domain: 'FinTech',
+    tagline: 'Smart money management for Gen Z',
+    funding: 'Seed',
+    logo: 'FN'
+  },
+  {
+    id: 5,
+    name: 'MediSync',
+    domain: 'HealthTech',
+    tagline: 'Unified patient records, simplified',
+    funding: 'Series A',
+    logo: 'MS'
+  },
+  {
+    id: 6,
+    name: 'AgroNova',
+    domain: 'AgriTech',
+    tagline: 'Data-driven farming for India',
+    funding: 'Pre-Seed',
+    logo: 'AN'
+  },
+  {
+    id: 7,
+    name: 'UrbanHive',
+    domain: 'PropTech',
+    tagline: 'Smarter urban living spaces',
+    funding: 'Seed',
+    logo: 'UH'
+  },
+  {
+    id: 8,
+    name: 'SkillForge',
+    domain: 'EdTech',
+    tagline: 'Job-ready skills in 90 days',
+    funding: 'Bootstrapped',
+    logo: 'SF'
+  },
+  {
+    id: 9,
+    name: 'LogiChain',
+    domain: 'Supply Chain',
+    tagline: 'Transparent logistics with blockchain',
+    funding: 'Series A',
+    logo: 'LC'
+  },
+  {
+    id: 10,
+    name: 'EcoCharge',
+    domain: 'Clean Energy',
+    tagline: 'Fast EV charging, everywhere',
+    funding: 'Seed',
+    logo: 'EC'
+  },
+  {
+    id: 11,
+    name: 'GreenLoop',
+    domain: 'Sustainability',
+    tagline: 'Circular solutions for e-waste',
+    funding: 'Pre-Series A',
+    logo: 'GL'
+  },
+  {
+    id: 12,
+    name: 'AgroNova',
+    domain: 'AgriTech',
+    tagline: 'Data-driven farming for India',
+    funding: 'Pre-Seed',
+    logo: 'AN'
+  },
+
+]
+
+export const jobs = [
+  {
+    id: 1,
+    title: 'Frontend Intern',
+    company: 'StudyMesh',
+    type: 'Internship',
+    location: 'Remote',
+    desc: 'Build UI components using React and Tailwind.'
+  },
+  {
+    id: 2,
+    title: 'Growth Associate',
+    company: 'GreenLoop',
+    type: 'Part-time',
+    location: 'Bengaluru',
+    desc: 'Marketing and partnerships.'
+  },
+  {
+    id: 3,
+    title: 'ML Research Intern',
+    company: 'Aether Labs',
+    type: 'Internship',
+    location: 'Hybrid',
+    desc: 'Work on model prototyping and datasets.'
+  },
+  { id: 4, title: 'Backend Developer', company: 'StudyMesh', type: 'Full-time', location: 'Remote', desc: 'Develop API endpoints using Node.js' },
+  { id: 5, title: 'Data Analyst', company: 'GreenLoop', type: 'Part-time', location: 'Bengaluru', desc: 'Analyze sustainability datasets and generate reports' },
+  { id: 6, title: 'Product Manager', company: 'Aether Labs', type: 'Full-time', location: 'Hybrid', desc: 'Lead product development and roadmap planning' },
+  { id: 7, title: 'UI/UX Designer', company: 'StudyMesh', type: 'Internship', location: 'Remote', desc: 'Design user interfaces and improve UX flow' },
+  { id: 8, title: 'DevOps Engineer', company: 'GreenLoop', type: 'Full-time', location: 'Bengaluru', desc: 'Manage cloud infrastructure and CI/CD pipelines' },
+  { id: 9, title: 'AI Research Intern', company: 'Aether Labs', type: 'Internship', location: 'Hybrid', desc: 'Assist in machine learning experiments and papers' },
+  { id: 10, title: 'Marketing Intern', company: 'StudyMesh', type: 'Internship', location: 'Remote', desc: 'Create content and manage social media campaigns' }
+];
+
+export const mentors = [
+  {
+    id: 1,
+    name: 'Dr. Priya Rao',
+    role: 'AI Researcher',
+    bio: '10+ years in ML, ex-research lead at an AI startup.'
+  },
+  {
+    id: 2,
+    name: 'Rohan Verma',
+    role: 'Startup Mentor',
+    bio: 'Serial entrepreneur; advisor to 8 startups.'
+  },
+  {
+    id: 3,
+    name: 'Sneha Iyer',
+    role: 'Design Lead',
+    bio: 'Product designer focused on UX for consumer apps.'
+  },
+  { id: 4, name: 'Amit Sharma', role: 'Growth Hacker', bio: 'Specializes in growth strategies for early-stage startups' },
+  { id: 5, name: 'Meera Nair', role: 'Product Designer', bio: 'Expert in mobile app UX and rapid prototyping' },
+  { id: 6, name: 'Karan Singh', role: 'Business Strategist', bio: 'Helps startups scale operations efficiently' },
+  { id: 7, name: 'Ritika Gupta', role: 'Data Scientist', bio: 'Experience in ML, AI, and predictive analytics' },
+  { id: 8, name: 'Vikram Das', role: 'Tech Lead', bio: 'Leads engineering teams in SaaS startups' },
+  { id: 9, name: 'Nisha Verma', role: 'Marketing Mentor', bio: 'Helps startups with digital campaigns and branding' },
+  { id: 10, name: 'Pranav Kulkarni', role: 'Startup Advisor', bio: 'Advisor for funding, pitch decks, and strategy' }
+];
+
+
+export const resources = [
+  {
+    id: 1,
+    title: 'Startup Basics: From Idea to MVP',
+    type: 'Article',
+    excerpt: 'A practical guide to building your first minimum viable product.'
+  },
+  {
+    id: 2,
+    title: 'Pitch Deck Template',
+    type: 'Template',
+    excerpt: 'A clean slide deck template that highlights problem, solution and team.'
+  },
+  {
+    id: 3,
+    title: 'Funding Options Explained',
+    type: 'Video',
+    excerpt: 'Understanding funding stages and how to approach investors.'
+  }
+]
