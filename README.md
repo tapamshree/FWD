@@ -4,7 +4,7 @@ StartPort is a full-stack, role-based startup ecosystem platform that connects i
 
 ---
 
-## 🧩 Project Overview
+##  Project Overview
 
 - **Interns** → Apply to startups, track applications, chat with mentors  
 - **Founders** → List startups, review applicants, manage teams  
@@ -16,7 +16,7 @@ Each user logs in and is shown a **dashboard tailored to their role**.
 
 ---
 
-## 🏗 Architecture
+## Architecture
 
 - **Frontend**: React (Vite)  
 - **Backend**: Node.js + Express  
@@ -27,7 +27,7 @@ Each user logs in and is shown a **dashboard tailored to their role**.
 
 ---
 
-## 🔐 Authentication & Authorization
+## Authentication & Authorization
 
 Users sign up with:
 
@@ -43,7 +43,7 @@ Login flow:
 
 ---
 
-## 🧠 Role-Based Dashboards
+##  Role-Based Dashboards
 
 - **Intern**: applied startups, saved jobs, chat history  
 - **Founder**: owned startups, applicants, funding info  
@@ -53,7 +53,26 @@ Login flow:
 
 All dashboards fetch **role-specific data** from backend APIs and conditionally render components on the frontend.
 
----
+🧭 Core Behavior
+
+All user interactions (applications, messages, bookings) are persisted in the database
+
+User dashboards always reflect past activity
+
+Admins modify platform data via protected admin routes
+
+Chat and notifications are real-time or near-real-time (future scaling)
+
+🧪 Development Phases
+
+Backend auth & JWT
+
+Role-based dashboard APIs
+
+Persistent user actions
+
+Chat & notifications
+
 
 ## 🗄 Database Design (Conceptual)
 
@@ -96,25 +115,6 @@ Messages / Actions
   "timestamp": "..."
 }
 
-🧭 Core Behavior
-
-All user interactions (applications, messages, bookings) are persisted in the database
-
-User dashboards always reflect past activity
-
-Admins modify platform data via protected admin routes
-
-Chat and notifications are real-time or near-real-time (future scaling)
-
-🧪 Development Phases
-
-Backend auth & JWT
-
-Role-based dashboard APIs
-
-Persistent user actions
-
-Chat & notifications
 
 Admin controls
 
